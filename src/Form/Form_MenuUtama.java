@@ -347,7 +347,6 @@ public class Form_MenuUtama extends javax.swing.JFrame {
                     f.getBtn_input().setEnabled(false);
                 }
                 f.getBtn_laporan().setEnabled(true);
-                f.getjLabel6().setText(getTxt_statusair().getText());
             }
             else{
                 f.getBtn_laporan().setEnabled(false);
@@ -359,7 +358,6 @@ public class Form_MenuUtama extends javax.swing.JFrame {
                     f.getBtn_input().setEnabled(false);
                 }
                 f.getBtn_laporan().setEnabled(false);
-                f.getjLabel7().setText(getTxt_statusair().getText());
             }
             dispose();
     }//GEN-LAST:event_btn_inputActionPerformed
