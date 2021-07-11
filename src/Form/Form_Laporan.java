@@ -32,6 +32,9 @@ public class Form_Laporan extends javax.swing.JFrame {
         //panel_galon.setBackground(new Color(225,225,225,255));
         paneljudul_table.setBackground(new Color(229,229,229,242));
         tableMemesan();
+        txt_Id.setVisible(false);
+        txt_Nama.setVisible(false);
+        txt_Hp.setVisible(false);
     }
 
     public JLabel getjLabel4() {
